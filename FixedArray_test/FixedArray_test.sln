@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixedArray_test", "FixedArray_test\FixedArray_test.csproj", "{17E0EBA6-C046-46EF-8FF6-4418BC139031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{CC55D173-24B6-4F12-9C7A-D983C6D913EC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Libs", "Libs\Libs.shproj", "{2C9F8125-6177-43D4-B2FA-CB046EEF9047}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libs\Libs.projitems*{17e0eba6-c046-46ef-8ff6-4418bc139031}*SharedItemsImports = 5
+		Libs\Libs.projitems*{2c9f8125-6177-43d4-b2fa-cb046eef9047}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17E0EBA6-C046-46EF-8FF6-4418BC139031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E0EBA6-C046-46EF-8FF6-4418BC139031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E0EBA6-C046-46EF-8FF6-4418BC139031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E0EBA6-C046-46EF-8FF6-4418BC139031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC55D173-24B6-4F12-9C7A-D983C6D913EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC55D173-24B6-4F12-9C7A-D983C6D913EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC55D173-24B6-4F12-9C7A-D983C6D913EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC55D173-24B6-4F12-9C7A-D983C6D913EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E954D86-1E54-429B-A0CD-78D40EF5AE08}
+	EndGlobalSection
+EndGlobal

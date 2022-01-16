@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2c9f8125-6177-43d4-b2fa-cb046eef9047</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Libs</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixedArray.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaxHelper.Parallel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaxHelper.Sequential.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MinHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StorageSrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vector_test1.cs" />
+  </ItemGroup>
+</Project>
